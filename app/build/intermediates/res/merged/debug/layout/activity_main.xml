@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchParent"
+    tools:context="com.example.android.futureofatc.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        style="@style/MatchParent"
+        android:background="@color/mainLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/image_top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_image_height"
+            android:layout_gravity="center"
+            android:background="@drawable/planeone"
+            android:orientation="vertical"
+            android:scaleType="centerCrop">
+
+            <TextView
+                style="@style/SubMainHeader"
+                android:text="@string/subheader" />
+
+            <TextView
+                style="@style/MainHeader"
+                android:text="@string/heading" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Information"
+            android:text="@string/subheading" />
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Heading"
+                android:text="@string/name_question" />
+
+            <EditText
+                android:id="@+id/airport"
+                style="@style/EditText"
+                android:hint="@string/busiest_airport"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Heading"
+                android:drawableLeft="@drawable/physiology"
+                android:text="@string/physiology" />
+
+            <TextView
+                style="@style/HeadingText"
+                android:text="@string/physiology_text" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/exercise_question" />
+
+            <RadioGroup style="@style/RadioGroup">
+
+                <RadioButton
+                    style="@style/RadioButton"
+                    android:text="@string/exercise_one" />
+
+                <RadioButton
+                    style="@style/RadioButton"
+                    android:layout_marginLeft="@dimen/radio_button_margin"
+                    android:layout_marginRight="@dimen/radio_button_margin"
+                    android:text="@string/exercise_two" />
+
+                <RadioButton
+                    android:id="@+id/exercise_three"
+                    style="@style/RadioButton"
+                    android:text="@string/exercise_three_more" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/drugs_question" />
+
+            <RadioGroup style="@style/RadioGroup">
+
+                <RadioButton
+                    style="@style/RadioButton"
+                    android:text="@string/drugs_yes" />
+
+                <RadioButton
+                    android:id="@+id/second_drugs"
+                    style="@style/RadioButton"
+                    android:layout_marginLeft="@dimen/radio_button_margin"
+                    android:text="@string/drugs_no" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Heading"
+                android:drawableLeft="@drawable/psychology"
+                android:text="@string/psychology" />
+
+            <TextView
+                style="@style/HeadingText"
+                android:text="@string/psychology_text" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/stress_question" />
+
+            <RadioGroup style="@style/RadioGroup">
+
+                <RadioButton
+                    android:id="@+id/bad_stress"
+                    style="@style/RadioButton"
+                    android:text="@string/bad" />
+
+                <RadioButton
+                    android:id="@+id/good_stress"
+                    style="@style/RadioButton"
+                    android:layout_marginLeft="@dimen/radio_button_margin"
+                    android:layout_marginRight="@dimen/radio_button_margin"
+                    android:text="@string/good" />
+
+                <RadioButton
+                    android:id="@+id/excellent_stress"
+                    style="@style/RadioButton"
+                    android:text="@string/excellent" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/suicide_question" />
+
+            <RadioGroup style="@style/RadioGroup">
+
+                <RadioButton
+                    style="@style/RadioButton"
+                    android:text="@string/drugs_yes" />
+
+                <RadioButton
+                    android:id="@+id/no_suicide"
+                    style="@style/RadioButton"
+                    android:layout_marginLeft="@dimen/radio_button_margin"
+                    android:text="@string/suicide_never" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/focus_question" />
+
+            <RadioGroup style="@style/RadioGroup">
+
+                <RadioButton
+                    style="@style/RadioButton"
+                    android:text="@string/focus_two_less" />
+
+                <RadioButton
+                    android:id="@+id/focus_three_more"
+                    style="@style/RadioButton"
+                    android:layout_marginLeft="@dimen/radio_button_margin"
+                    android:text="@string/focus_three_more" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Heading"
+                android:drawableLeft="@drawable/wisdom"
+                android:text="@string/wisdom" />
+
+            <TextView
+                style="@style/HeadingText"
+                android:text="@string/wisdom_text" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/languages_question" />
+
+            <RadioGroup style="@style/RadioGroup">
+
+                <RadioButton
+                    style="@style/RadioButton"
+                    android:text="@string/languages_one" />
+
+                <RadioButton
+                    android:id="@+id/languages_two"
+                    style="@style/RadioButton"
+                    android:layout_marginLeft="@dimen/radio_button_margin"
+                    android:text="@string/languages_two_more" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/study_question" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/math_checkbox"
+                        style="@style/checkBox"
+                        android:text="@string/math" />
+
+                    <CheckBox
+                        android:id="@+id/physics_checkbox"
+                        style="@style/checkBox"
+                        android:text="@string/physics" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/history_checkbox"
+                        style="@style/checkBox"
+                        android:text="@string/history" />
+
+                    <CheckBox
+                        android:id="@+id/chemistry_checkbox"
+                        style="@style/checkBox"
+                        android:text="@string/chemistry" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionBox"
+            android:layout_marginBottom="17dp">
+
+            <TextView
+                style="@style/Question"
+                android:layout_marginBottom="@dimen/margin_bottom_questions"
+                android:text="@string/iq_question" />
+
+            <RadioGroup style="@style/RadioGroup">
+
+                <RadioButton
+                    style="@style/RadioButton"
+                    android:text="@string/iq_little" />
+
+                <RadioButton
+                    style="@style/RadioButton"
+                    android:layout_marginLeft="@dimen/radio_button_margin"
+                    android:layout_marginRight="@dimen/radio_button_margin"
+                    android:text="@string/iq_ok" />
+
+                <RadioButton
+                    android:id="@+id/iq_great"
+                    style="@style/RadioButton"
+                    android:text="@string/iq_great" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="@drawable/plane">
+
+            <Button
+                android:id="@+id/score_button"
+                style="@style/submitButton"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:onClick="showScore"
+                android:text="@string/submit"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/button_marginTop"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

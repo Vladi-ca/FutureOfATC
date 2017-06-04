@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Vladi/AndroidStudioProjects/FutureOfATC/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Vladi/.android/build-cache/a516f74138626e530c01dc3b6a02de9618336925/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/Vladi/AndroidStudioProjects/FutureOfATC/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/Vladi/.android/build-cache/a516f74138626e530c01dc3b6a02de9618336925/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/Vladi/AndroidStudioProjects/FutureOfATC/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Vladi/.android/build-cache/a516f74138626e530c01dc3b6a02de9618336925/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/Vladi/AndroidStudioProjects/FutureOfATC/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Vladi/.android/build-cache/a516f74138626e530c01dc3b6a02de9618336925/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

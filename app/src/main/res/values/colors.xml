@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1e2538</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainLayout">#edf0ff</color>
+    <color name="text">#3b3e4c</color>
+    <color name="radio_buttonTint">#737fbe</color>
+    <color name="submit_button_fill">#00ffffff</color>
+    <color name="submit_button_accent">#fff</color>
+    <color name="HeaderLightTextColor">#ffff</color>
+
+</resources>

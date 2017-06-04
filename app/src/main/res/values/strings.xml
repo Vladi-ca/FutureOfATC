@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">Future Of ATC</string>
+    <string name="name_question">Your knowledge</string>
+    <string name="busiest_airport">Enter the name of the busiest airport in UK</string>
+    <string name="subheader">TEST YOUR ABILITY\nTO BECOME AN</string>
+    <string name="heading">AIR TRAFFIC CONTROLLER</string>
+    <string name="subheading">This test is not professional test which can surely qualify you as an ATC but only for your personal information.</string>
+    <string name="physiology">Physiology</string>
+    <string name="psychology">Psychology</string>
+    <string name="wisdom">Wisdom</string>
+    <string name="physiology_text">Checking if you are safe and ‘fit to control’. The tests undertaken as a part of the Aviation Medical Examination are at a high level.</string>
+    <string name="psychology_text">Main Factors: Spatial awareness. Multitasking. Memory. Respect for authority. Resilience. Personal authority. Visual-motor coordination. Teamwork. Emotional stability.</string>
+    <string name="wisdom_text">You must have at least five GCSEs or equivalent at Grade C or above, including English and Maths.</string>
+
+    <string name="exercise_question">How often do you exercise?</string>
+    <string name="exercise_one">1x/ week</string>
+    <string name="exercise_two">2x/ week</string>
+    <string name="exercise_three_more">3+ x/ week</string>
+
+    <string name="drugs_question">Do you take any drugs? (Alcohol, Nicotine, Stronger drugs)</string>
+    <string name="drugs_yes">Yes</string>
+    <string name="drugs_no">No</string>
+
+    <string name="study_question">Which of the following have you been studying?</string>
+    <string name="math">Math</string>
+    <string name="physics">Physics</string>
+    <string name="history">History</string>
+    <string name="chemistry">Chemistry</string>
+
+    <string name="stress_question">How do you cope with stress?</string>
+    <string name="bad">Bad</string>
+    <string name="good">Good</string>
+    <string name="excellent">Excellent</string>
+
+    <string name="suicide_question">Have you thought about suicide?</string>
+    <string name="suicide_never">Never</string>
+
+    <string name="focus_question">How many hours can you perform excellently?</string>
+    <string name="focus_two_less">Two and less</string>
+    <string name="focus_three_more">3 and more</string>
+
+
+    <string name="languages_question">How many languages do you speak fluently?</string>
+    <string name="languages_one">One</string>
+    <string name="languages_two_more">Two and more</string>
+
+
+    <string name="iq_question">What is your IQ?</string>
+    <string name="iq_little">&lt; 100</string>
+    <string name="iq_ok">&lt; 111</string>
+    <string name="iq_great">&gt; 115</string>
+
+    <string name="submit">LET\'S FIND OUT!</string>
+    <string name="toast_score_zero">DO NOT TRY TO BE AN AIR TRAFFIC CONTROLLER! SCORE:0/8</string>
+    <string name="toast_low_score">YOU NEED TO SCORE MORE FOR BECOME AN ATC! SCORE:</string>
+    <string name="toast_slight_chance">There is a slight chance for you to become an ACT! SCORE:</string>
+    <string name="toast_some_abilities">You have some abilities for becoming an ATC, but there are plenty more to be tested by designated authorities. SCORE:</string>
+    <string name="toast_wrong_name">You entered wrong name of the airport :/ .</string>
+    <string name="toast_slight_chance_score">/9. Only one right answer to be perfect match!</string>
+    <string name="toast_score_outOfNine">/9.</string>
+    <string name="airport_name">Heathrow</string> />
+
+    <string name="toast_reset">The score has been reset.</string>
+
+
+</resources>
